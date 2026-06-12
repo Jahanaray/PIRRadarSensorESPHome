@@ -1,0 +1,27 @@
+# ESPHome Secrets (CRITICAL: Never commit real secrets)
+secrets.yaml
+
+# ESPHome build artifacts
+/.esphome/
+/builds/
+/*.pioenvs/
+/*.platformioenvs/
+/*.dep/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Local overrides (if used)
+!secrets.example.yaml
